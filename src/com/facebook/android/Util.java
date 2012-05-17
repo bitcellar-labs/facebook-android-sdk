@@ -93,7 +93,7 @@ public final class Util {
             }
 
             if (first) first = false; else sb.append("&");
-            sb.append(URLEncoder.encode(key) + "=" +
+            sb.append(key + "=" +
                       URLEncoder.encode(parameters.getString(key)));
         }
         return sb.toString();
