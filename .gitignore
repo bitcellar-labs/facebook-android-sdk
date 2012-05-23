@@ -8,3 +8,4 @@ lint.xml
 bin/
 out/
 gen/
+.idea/
